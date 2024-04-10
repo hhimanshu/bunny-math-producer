@@ -25,6 +25,6 @@ jobs:
         run: bun run build
 
       - name: Semantic Release
-        run: npx semantic-release
+        run: npx -p node@v20-lts -c "npx semantic-release"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
