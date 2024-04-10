@@ -24,7 +24,12 @@ jobs:
       - name: Build
         run: bun run build
 
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: "20"
+
       - name: Semantic Release
-        run: npx -p node@v20-lts -c "npx semantic-release"
+        run: npx semantic-release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
