@@ -16,13 +16,8 @@
     // in order to export types
     "declaration": true,
     "emitDeclarationOnly": true,
-    "noEmit": false,
     "outDir": "dist",
     "rootDir": "src",
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["src/*"]
-    },
 
     // Best practices
     "strict": true,
