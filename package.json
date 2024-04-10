@@ -18,6 +18,10 @@
   "publishConfig": {
     "registry": "https://npm.pkg.github.com/"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://github.com/hhimanshu/bunny-math-producer.git"
+  },
   "release": {
     "branches": [
       "main"
