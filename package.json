@@ -1,5 +1,5 @@
 {
-  "name": "bunny-math-producer",
+  "name": "@hhimanshu/bunny-math-producer",
   "module": "index.ts",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
